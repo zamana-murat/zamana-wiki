@@ -116,33 +116,74 @@
    ========================================================================== */
 
 .md-typeset h1 {
+  color: var(--zamana-navy);
   margin-top: 1.5rem;
   margin-bottom: 1.2rem;
   font-weight: 700;
   letter-spacing: -0.01em;
+  font-size: 1.6rem;
+  line-height: 1.25;
+}
+
+[data-md-color-scheme="slate"] .md-typeset h1 {
+  color: var(--zamana-gold-light);
 }
 
 .md-typeset h2 {
   margin-top: 3rem;
   margin-bottom: 1rem;
   padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
   font-weight: 700;
   letter-spacing: -0.005em;
-}
-
-/* Gold accent underline on h2 */
-.md-typeset h2::after {
-  content: "";
-  display: block;
-  width: 3rem;
-  height: 3px;
-  background: var(--zamana-gold);
-  margin-top: 0.6rem;
-  border-radius: 2px;
+  border-bottom: 3px solid var(--zamana-gold);
+  width: fit-content;
+  max-width: 100%;
 }
 
 .md-typeset p {
   line-height: 1.75;
+}
+
+/* ==========================================================================
+   Blockquotes — branded navy/gold pull-quote style
+   ========================================================================== */
+
+.md-typeset blockquote {
+  border-left: 4px solid var(--zamana-gold);
+  background: linear-gradient(90deg, rgba(201, 168, 76, 0.10) 0%, rgba(201, 168, 76, 0.02) 100%);
+  padding: 1.2rem 1.4rem;
+  margin: 1.8rem 0;
+  border-radius: 0 10px 10px 0;
+  color: var(--md-default-fg-color);
+  font-style: normal;
+  box-shadow: 0 1px 3px rgba(15, 40, 85, 0.05);
+}
+
+.md-typeset blockquote p {
+  margin: 0.3rem 0;
+  color: var(--md-default-fg-color);
+}
+
+.md-typeset blockquote strong {
+  color: var(--zamana-navy);
+  font-weight: 700;
+}
+
+.md-typeset blockquote em {
+  color: var(--zamana-navy-mid);
+}
+
+[data-md-color-scheme="slate"] .md-typeset blockquote {
+  background: linear-gradient(90deg, rgba(201, 168, 76, 0.15) 0%, rgba(201, 168, 76, 0.03) 100%);
+}
+
+[data-md-color-scheme="slate"] .md-typeset blockquote strong {
+  color: var(--zamana-gold-light);
+}
+
+[data-md-color-scheme="slate"] .md-typeset blockquote em {
+  color: var(--zamana-gold);
 }
 
 /* ==========================================================================
