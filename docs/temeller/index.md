@@ -64,6 +64,14 @@ Bu altı soru Zamana eğitim programının ilk saatinde de sorulan sorulardır. 
 
     [:octicons-arrow-right-24: Gizlilik ve KVKK](gizlilik-kvkk.md)
 
+-   :material-help-circle-outline:{ .lg .middle } **Sık Sorulan Sorular**
+
+    ---
+
+    Güvenlik, maliyet, çalışan adaptasyonu, ChatGPT karşılaştırması ve Zamana programı — tek sayfada.
+
+    [:octicons-arrow-right-24: SSS](sss.md)
+
 </div>
 
 ## Zamana'nın Ana Duruşu

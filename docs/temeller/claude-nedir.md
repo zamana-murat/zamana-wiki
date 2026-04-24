@@ -15,13 +15,33 @@ Kısa cevap bu kadar. Ama Zamana'da gerçek soru şu: **iş dünyasında Claude 
 
 ## Claude'u Kim Yaptı, Neden Yaptı?
 
-Claude'un arkasındaki şirket **Anthropic**. Eski OpenAI çalışanları tarafından 2021'de kurulan, merkezi San Francisco'da olan bir yapay zeka güvenliği şirketidir.
+Claude'un arkasındaki şirket **Anthropic**. 2021'de eski OpenAI çalışanları tarafından kurulan, merkezi San Francisco'da olan bir yapay zeka güvenliği şirketidir.
 
-Anthropic'in kurucuları, yapay zekanın hızla güçlendiğini ancak güvenlik konusunda yeterli özen gösterilmediğini düşünerek ayrı bir şirket kurmaya karar verdi. Şirketin resmi tasarım felsefesi üç kelimeye indirgenir:
+### Kurucular
+
+- **Dario Amodei** (CEO) — OpenAI'de Araştırma Başkan Yardımcısı. GPT-2 ve GPT-3'ün arkasındaki teknik liderlerden biri. Anthropic'i "yapay zekayı güvenli yapmak isteyen insanlar" için kurduğunu açıkça söyler.
+- **Daniela Amodei** (President) — Dario'nun kız kardeşi. OpenAI'de Güvenlik ve Politika Başkan Yardımcısı. Anthropic'in operasyonel ve insan-odaklı tarafını yönetir.
+- **Tom Brown, Chris Olah, Sam McCandlish, Jack Clark** ve diğer kurucu ekip — tamamı OpenAI'den gelen, yapay zeka güvenliği konusunda kaygılarını ayrı bir şirket kurarak eyleme geçiren araştırmacılar.
+
+### Neden Ayrıldılar?
+
+Kısa hikaye: Kurucu ekip, yapay zekanın hızla güçlendiğini gördü — ama güvenlik, yorumlanabilirlik ve sorumlu dağıtım konularında **yeterli yatırım yapılmadığı** görüşündeydi. OpenAI'nin ticari yönelimiyle bu güvenlik önceliği arasında bir ayrışma hissettiler ve 2021'de Anthropic'i kurdular.
+
+### Anthropic'in Felsefesi
+
+Şirketin resmi tasarım felsefesi üç kelimeye indirgenir:
 
 **Yararlı, zararsız, dürüst.** (*Helpful, harmless, honest*)
 
 Bu üç ilke lafta kalmaz — modelin davranışlarına doğrudan yansır. Claude, gerçekten tehlikeli talepleri reddeder, emin olmadığında bunu söyler, ve sınırlarını şeffaf biçimde iletir. Bu yaklaşım özellikle kurumsal kullanım için önemlidir: finans, hukuk, İK gibi bölümlerde çalışan bir yapay zekanın güvenilir ve öngörülebilir olması şarttır.
+
+**Anthropic'in teknik yenilik katkısı:** "Constitutional AI" adı verilen eğitim yöntemi. Basitçe: modele davranış anayasası verilir ve kendi çıktılarını bu anayasaya göre değerlendirip düzeltmeyi öğrenir. Sonuç: daha öngörülebilir, daha az zararlı, daha dürüst bir sistem.
+
+### "Claude" Adı Nereden Geliyor?
+
+Şirketin resmi açıklaması yok, ama yaygın olarak kabul edilen yorum: **Claude Shannon** — bilgi teorisinin kurucusu, modern dijital iletişimin babası. 20. yüzyılın en etkili matematikçilerinden biri.
+
+Anthropic bu referansı doğrulamadı ama hiç reddetmedi. İsim seçimi bilinçli görünüyor: **insani, sakin, entelektüel** çağrışım — abartılı, teknolojik bir marka değil.
 
 ## Claude Ne Değildir?
 
@@ -68,6 +88,42 @@ Yine de iki kural:
 ## Claude ile ChatGPT Aynı Şey mi?
 
 Hayır. Her ikisi de büyük dil modeli, ama önemli farklar var — özellikle iş kullanımı için. Detaylı karşılaştırma için [Claude vs ChatGPT](claude-vs-chatgpt.md) sayfasına bakın.
+
+## Ne Zaman Claude Değil, Başka Araç?
+
+Zamana Claude'u severiz ama **her şey için doğru araç değildir**. Dürüst tavsiye: şu durumlarda Claude yerine (veya ek olarak) başka araç düşünün.
+
+### Kesin hesaplama gerektiğinde → **Excel veya özel yazılım**
+
+Aritmetik, finansal modelleme, istatistiksel analiz için Claude bir hesap makinesi değildir. Excel, Python, SPSS veya sektörel yazılım kullanın. Claude bu sonuçları **anlatmaya** yardımcı olur — üretmeye değil.
+
+### Gerçek zamanlı veri gerektiğinde → **Bloomberg, Reuters, özel data provider'lar**
+
+Bugünün döviz kuru, hisse fiyatı, emtia fiyatı için Claude'un bilgi kesim tarihi geçmiştir. Finansal profesyonelseniz kurumsal data terminalleri, emtia trader'ıysanız Platts / Argus kullanın.
+
+### Yüksek hassasiyetli resmi belge (imza + mühür) → **Resmi hukuki çeviriler, noter onayı**
+
+Noter, konsolosluk onayı, apostil gerektiren belgeler için Claude bir başlangıç noktasıdır — yasal yeterlilik veremez. Yeminli tercüman ve hukuki makamlar işe dahildir.
+
+### Ekibin birlikte gerçek zamanlı düzenleme yapması gerektiğinde → **Google Docs, Microsoft 365 co-authoring**
+
+Claude tek kullanıcı ve tek oturumdur. 5 kişi aynı belge üzerinde eş zamanlı çalışıyorsa Google Docs veya OneDrive daha uygundur. Claude ilk taslağı üretir, sonra ekip co-editing'de devam eder.
+
+### Büyük veri görselleştirmesi ve BI → **Tableau, Power BI, Looker**
+
+Claude Artifact'lerde basit dashboard yapar ama kurumsal BI (milyonlarca kayıt, karmaşık SQL, kullanıcı bazlı izin) için uygun değildir. Bu alan hâlâ Power BI / Tableau toprağıdır.
+
+### Tamamen offline, hava-boşluklu ortamlar → **Yerel LLM'ler (Llama, Mistral)**
+
+Savunma, hassas finansal sunucular, internet kesintisi garantili ortamlarda Claude kullanılamaz (bulut tabanlı). Yerelde çalışan modeller tercih edilmeli. Bu tip durumlar Zamana müşterilerinde nadirdir.
+
+### Kod geliştirme (iş profesyoneli değilseniz) → **Claude Code, GitHub Copilot, Cursor**
+
+İş profesyoneli kod yazmaz — Claude'a "şunu yap" der, Claude kodu üretir ve çalıştırır. Ama siz profesyonel bir geliştirici iseniz doğrudan geliştirici aracı (Claude Code, Copilot, Cursor) daha hızlıdır. **Zamana bu alanı kapsamaz.**
+
+### "Claude'a sorma, patronuma sor" olan durumlar
+
+Bazı konularda yapay zeka yanıtı almak yanlış hamledir — şirketinizdeki gerçek uzmanı (hukuk, İK, finans direktörü) aramak doğrusudur. Claude'un verdiği cevap "olabilir"i gösterir; şirket içi karar **insani sorumlulukla** verilir.
 
 ## İlgili Sayfalar
 

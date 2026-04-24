@@ -152,6 +152,153 @@ Kurumsal dağıtım için IT ekibinizin yapması gerekenler:
 - **Kurulum yetkisi:** Claude Desktop kurulumu için yönetici hakkı veya IT onayı gerekir.
 - **Özel dahili connector'lar:** Şirket içi sistemlere bağlanan MCP server'lar ya açık erişimli olmalı ya da kurumsal ağ perimetresi içinde barındırılmalı.
 
+## KVKK Müfettişinin Sorabileceği 10 Soru
+
+Bir KVKK denetimi veya iç denetim Claude kullanımını incelediğinde yöneltebileceği sorular. **Her birine cevabınız hazır olmalı.**
+
+### 1. Claude'a hangi kişisel veri kategorileri girildi?
+
+Şirket politikanızda net tanımlı olmalı. "Her şey yasak" veya "her şey serbest" değil — hangi kategori hangi plan altında işlenebilir, yazılı olmalı.
+
+### 2. Claude kullanımı VERBİS kaydınızda bir işleme faaliyeti olarak yer alıyor mu?
+
+Kişisel veri işleyen bir AI aracı kullanımı, işleme faaliyetlerinize eklenmiş olmalı. DPO (Veri Sorumlusu) bunu kontrol eder.
+
+### 3. Çalışanların hangi plan altında Claude kullandığını nasıl biliyorsunuz?
+
+Team veya Enterprise plan + SSO ile bu izlenebilir. Bireysel Pro hesaplarda çalışanın plan seviyesini ve opt-in ayarını görmek güçtür — dolayısıyla kurumsal kullanım için Team önerilir.
+
+### 4. Anthropic ile imzalı DPA'nız var mı?
+
+Team ve Enterprise planlarında imzalayabilirsiniz. Yoksa KVKK kapsamında "veri işleyen" ilişkisi belgesizdir — denetimde risk.
+
+### 5. Veri yurt dışına aktarılıyor mu? Hangi yetkili çerçevede?
+
+Claude ABD kaynaklı (Anthropic San Francisco'da). Verileriniz işlenme sırasında ABD'ye gider. KVKK madde 9 kapsamında yurt dışı aktarım yetkinizin tanımlı olması gerekir — genellikle açık rıza veya bağlayıcı kurumsal kurallar (BKKR) ile.
+
+### 6. Verilerin saklama süreleri nedir?
+
+Plana göre değişir (yukarıdaki tabloya bakın). DPA'da bu süreler netleştirilir. Zero Data Retention (Enterprise) en sıkısıdır — işlem sonrası saklama yok.
+
+### 7. Bir veri sahibi talebi geldiğinde (erişim, silme) Claude'daki veriye nasıl ulaşırsınız?
+
+Bu soru zorludur. Claude tarafında "kullanıcı X hakkında ne var" diye spesifik sorgulama zordur. Pratik cevap: **hassas kişisel veri zaten Claude'a girmemeli** — böylece sorun doğmaz.
+
+### 8. Bir güvenlik ihlali durumunda Anthropic sizi nasıl bilgilendirir?
+
+Enterprise DPA'da ihlal bildirim süreleri tanımlıdır (genellikle 72 saat). Team planında standart ticari şartlar geçerli. Pro / Free bireysel şartlarda spesifik kurumsal ihlal bildirimi yoktur.
+
+### 9. Çalışanların Claude kullanımı nasıl eğitiliyor?
+
+Yapılandırılmış bir eğitim programı (örneğin Zamana retainer) bu soruya güçlü cevap verir. Gayri resmi öğrenme KVKK denetim karşısında zayıftır.
+
+### 10. Claude kullanımının iç kontrol / denetim izi nerede?
+
+Team / Enterprise yönetici panelleri kullanım izleri sunar. Ayrıca CLAUDE.md dosyaları, workspace klasörleri ve prompt kütüphaneleri — bunlar **şirket dokümantasyonudur** ve denetimde kanıt olarak sunulabilir.
+
+## Adım Adım DPA İmzalama
+
+Anthropic ile Data Processing Agreement imzalamanın pratik süreci:
+
+### 1. Plan Seviyesini Belirleyin
+
+DPA **Team ve Enterprise** planlarında mevcut. Pro / Free planda yok. Önce plan seçilmeli.
+
+### 2. Anthropic İletişimini Başlatın
+
+- **Team müşterileri:** Anthropic'in müşteri destek portalı üzerinden veya hesap yöneticinize e-posta atarak DPA talep edin
+- **Enterprise müşterileri:** Satış temsilciniz standart olarak DPA'yı sunar
+
+### 3. Standart DPA'yı İnceleyin
+
+Anthropic'in **standart DPA şablonu** GDPR/KVKK uyumlu olarak hazırlanmıştır. Çoğu şirket için standart sürüm kabul edilebilir.
+
+### 4. Şirket İçi Hukuki İnceleme
+
+Şirketinizin hukuk departmanı veya dış hukuk büronuz DPA'yı incelemeli. Dikkat edilecek noktalar:
+
+- Alt-işleyiciler listesi (Anthropic hangi üçüncü taraf hizmet sağlayıcıları kullanıyor?)
+- Veri saklama süreleri
+- İhlal bildirim süreleri ve yolları
+- Yurt dışı aktarım dayanağı (Adequacy decision, SCCs, vb.)
+- Denetim hakkı (audit rights)
+
+### 5. Müzakere (Enterprise İçin)
+
+Enterprise müşterileri standart dışı hükümler müzakere edebilir. Örneğin:
+
+- Zero Data Retention tüm iş akışlarına uygulansın
+- Belirli veri tiplerinin hiç işlenmemesi
+- Özel denetim hakkı
+- Saklama süresinin kısaltılması
+
+Team müşterilerinde genelde standart DPA değişmez — ama her zaman sorabilirsiniz.
+
+### 6. İmza ve Kayıt
+
+- Her iki taraf imzalar (genellikle DocuSign veya benzeri e-imza platformu üzerinden)
+- İmzalı kopyayı **KVKK dosyanıza** kaydedin
+- VERBİS kaydınızda Claude'un kullanımını "işleme faaliyeti" olarak güncelleyin
+
+### 7. İç Duyuru
+
+DPA imzalandı — ekibe bildirin. Çalışanlar Claude'u kullanmaya devam ederken artık hukuki çerçeve nettir.
+
+### Süreç Ne Kadar Sürer?
+
+- **Team planı standart DPA:** 1-2 hafta
+- **Enterprise müzakereli DPA:** 4-12 hafta (hukuk büroları bağımlı)
+
+Zamana retainer müşterilerinde bu süreç eğitim programının ilk 2 haftasında paralel yürür.
+
+## Sektörel Ek — Düzenlenmiş Sektörler İçin KVKK Üstü Yükümlülükler
+
+KVKK tüm sektörler için geçerlidir. Ama bazı sektörlerde **ek düzenleyici yükümlülükler** vardır. Bu sektörlerde Claude kullanımı ek özen gerektirir.
+
+### Finans Sektörü (BDDK, SPK, MASAK)
+
+- **BDDK düzenlemeleri** — bankacılık verisinin işlenmesi için ek kısıtlar (bulut servislerinde veri konumu, erişim logları)
+- **SPK (Sermaye Piyasası Kurulu)** — halka açık şirket veya aracı kurum çalışanlarında **insider bilgi koruması** kritik. Mali tablolar açıklanana kadar Claude'a verilmemeli.
+- **MASAK (Mali Suçları Araştırma Kurulu)** — müşteri tanıma, şüpheli işlem kayıtları hassas. MASAK bildirilmesi gerekli bilgiyi Claude'a vermeyin.
+
+**Pratik öneri:** Finans sektörü müşterileri için Enterprise plan + Zero Data Retention + sıkı iç politika. Bireysel Pro yeterli değil.
+
+### Sağlık Sektörü (HKMS, KVKK özel nitelikli veri)
+
+- **KVKK madde 6** — sağlık verisi **özel nitelikli kişisel veri**dir. İşlenmesi için açık rıza veya diğer hukuki sebep gerekir.
+- **HKMS (Hekim Kayıt Merkezi Sistemi)** — hekimlerin kayıt ve bildirim yükümlülükleri.
+- **Sağlık Bakanlığı Bulut Politikası** — hasta verisinin yurt dışı bulutlarda işlenmesi kısıtlı.
+
+**Pratik öneri:** Hasta verisi **asla** Claude'a girilmemeli. Claude hastane iç iletişimi, eğitim materyali, literatür özetleme gibi **hasta verisi içermeyen** işler için kullanılabilir. Enterprise + DPA + sıkı veri hijyeni zorunludur.
+
+### Eğitim Sektörü (MEB, YÖK)
+
+- **MEB (Milli Eğitim Bakanlığı)** — öğrenci verisi özel koruma altında. Özel okullarda öğrenci dosyaları Claude'a verilmemeli.
+- **YÖK (Yükseköğretim Kurulu)** — öğrenci ve akademisyen verileri için benzer ilkeler.
+
+**Pratik öneri:** Eğitim kurumlarında Claude akademik materyal üretimi, ders planı, araştırma desteği için güçlüdür. Öğrenci kişisel verisinden uzak durun.
+
+### Hukuk Sektörü (Barolar Birliği, avukat-müvekkil gizliliği)
+
+- **Avukatlık Kanunu** — avukat-müvekkil iletişim gizliliği yasal olarak korunur.
+- **Barolar Birliği mesleki kuralları** — müvekkil bilgilerinin dış sistemlerde işlenmesi etik açıdan kısıtlı.
+
+**Pratik öneri:** Müvekkil adı, dava detayı Claude'a verilmemeli. Claude sözleşme taslağı, hukuki araştırma, iç memo için kullanılabilir — ama müvekkil kimlik bilgisi olmadan. Enterprise + Zero Data Retention düşünülmeli.
+
+### Savunma ve Kritik Altyapı
+
+- **Savunma Sanayii Başkanlığı (SSB)** — savunma projelerine dair bilgi kısıtlı.
+- **Kritik altyapı (enerji, telekomünikasyon, su)** — siber güvenlik düzenlemeleri kapsamında.
+
+**Pratik öneri:** Savunma ve kritik altyapı şirketlerinde Claude sadece **yönetsel işler** (raporlar, iletişim, eğitim materyali) için. Operasyonel hassas bilgi asla değil. Bu sektörlerde **yerel / on-premises LLM'ler** daha uygun olabilir.
+
+### Kamuya Açık Şirketler (BIST)
+
+- **Özel Durum Açıklamaları (KAP)** — halka açıklanmamış maddi bilgi **içeriden bilgi** tanımındadır.
+- **Finansal açıklama süreçleri** — bilgi asimetrisi oluşturacak her kullanım kısıtlı.
+
+**Pratik öneri:** Çeyreklik finansal sonuçlar açıklanmadan önce mali veri Claude'a verilmemeli. Açıklama sonrası Claude finansal anlatı üretiminde güçlü olur.
+
 ## Kurumsal Kontrol Listesi
 
 Zamana eğitim programı başlamadan önce şirketinizin tamamlaması gerekenler:
