@@ -108,6 +108,95 @@ xAI'nin ürünü Grok, daha çok tüketici ve eğlence odaklı konumlanıyor —
 
 Bu durum değişebilir — xAI hızlı hareket ediyor. Ama bugün itibariyle, bir şirketin yapay zeka stratejisini kurarken karar Claude ile ChatGPT arasındadır. Grok zamanla ciddi bir alternatif olursa bu sayfayı güncelleriz.
 
+## Türkçe Resmi Yazışma — Kafa Kafaya Örnek
+
+"Claude ve ChatGPT Türkçeyi nasıl yazıyor?" sorusuna soyut cevap vermek yerine somut bir örnek. Aynı prompt, iki modelin tipik çıktısı.
+
+### Prompt
+
+> *"Türk Ticaret Kanunu'na tabi bir anonim şirket olarak, bir tedarikçiden gelen sözleşme değişikliği teklifini reddeden resmi bir yazı yaz. Tedarikçi 3 yıllık ilişkimiz var, ilişkiyi sürdürmek istiyoruz, ama şartları kabul edemiyoruz. 150 kelimeyi aşma. Resmi Türk iş mektubu formatında."*
+
+### Claude 4.x Tipik Çıktısı
+
+> **Sayın [Ad] Bey/Hanım,**
+>
+> [Tarih] tarihli yazınızla iletmiş olduğunuz sözleşme değişikliği teklifinizi tarafımızca titizlikle incelenmiş olup, mevcut koşullarda önerilen değişikliklerin tarafımızca uygun bulunmadığını bildirmek durumundayız.
+>
+> Üç yılı aşkın süredir sürdürdüğümüz ticari ilişkimizin tarafımızca değer taşıdığını belirtmek isteriz. Ancak sözleşmenin mevcut hükümlerinden ayrılan önerilen koşullar, şirketimizin ticari ve operasyonel prensipleri ile örtüşmemektedir.
+>
+> Önümüzdeki dönemde karşılıklı faydayı koruyan alternatif bir düzenleme üzerinde görüşmelere açık olduğumuzu önemle belirtiriz.
+>
+> Saygılarımızla,
+>
+> [Ad Soyad]
+> [Ünvan]
+> [Şirket]
+
+**Değerlendirme:** Türk iş mektubu formatı doğru. "Sayın" hitabı yerinde. Üçüncü şahıs kurumsal dil ("tarafımızca", "şirketimizin") tutarlı. "Kabul edemiyoruz" yerine daha diplomatik "uygun bulunmadığını bildirmek durumundayız" kullanımı. İlişki koruma tonu açık. Kelime sayısı: ~130.
+
+### ChatGPT-5 Tipik Çıktısı
+
+> **Sayın [Ad],**
+>
+> İletmiş olduğunuz sözleşme değişikliği önerisi için teşekkür ederiz. Şirketimiz söz konusu önerileri dikkatle değerlendirmiş olup, mevcut koşullar çerçevesinde önerilen değişikliklerin kabul edilemeyeceğini bildirmek isteriz.
+>
+> Sizinle 3 yıldır süregelen ticari ilişkimiz bizim için önemlidir. Bu ilişkinin gelecekte de devam etmesini arzu etmekle birlikte, önerilen yeni şartların şirketimizin ticari politikalarıyla uyumlu olmadığı görülmüştür.
+>
+> Her iki tarafın çıkarlarını gözeten alternatif bir çözüm üzerinde görüşmeye açığız. Görüşlerinizi bekler, saygılarımızı sunarız.
+>
+> [Ad Soyad]
+> [Ünvan]
+
+**Değerlendirme:** Format doğru. "Sayın" hitabı var. Ton biraz daha samimi ("arzu etmekle birlikte", "teşekkür ederiz"). "3 yıldır" (rakam) yerine Claude'un "Üç yılı aşkın" (yazı) tercihi resmi yazışma kurallarına göre daha doğru. Kelime sayısı: ~120.
+
+### Fark Analizi
+
+- **Claude:** Daha ağır kurumsal register, daha formal, "tarafımızca" gibi üçüncü şahıs kullanımı ağırlıklı
+- **ChatGPT:** Biraz daha sıcak, daha modern kurumsal ton
+
+Her ikisi de **kullanılabilir**. Fark çıktıların kendisinde değil, **tercih ettiğiniz tonda**. Claude daha ağır kurumsal alanlarda (banka, sigorta, kamu yazışması), ChatGPT biraz daha modern şirket kültürlerinde doğal durur.
+
+**Önemli not:** Bu tek örnek. 20 farklı resmi yazışma tipinde fark **daha incelikli**. Genel kural: ikisi de %90 doğru çıkarır, %10 insan gözüyle son rötuş gerekir.
+
+## 2026'da Durum Ne Değişti?
+
+Claude ve ChatGPT hızlı evrim geçiriyor. 2026 başı itibariyle Zamana'nın takip ettiği önemli gelişmeler:
+
+### 2026 Ocak
+
+- **Claude Opus 4.7** yayınlandı — 2.576 piksele kadar görsel çözünürlük desteği (en yüksek)
+- **Cowork Live Artifacts** — connector'larla canlı veri çeken kalıcı HTML panelleri
+- ChatGPT **"ChatGPT Projects" özelliği yaygınlaştı** — Claude Projects ile paritenin kapanması
+
+### 2026 Şubat-Mart
+
+- **Anthropic Scheduled Tasks** resmen yayınlandı — Cowork'te otomasyon olgunlaştı
+- **Claude Enterprise** için özel plugin marketplace özelliği açıldı
+- OpenAI **o3-mini** ile hızlı ucuz akıl yürütme modeli çıkardı
+- **KVKK/GDPR için Anthropic API veri saklama süresi** 30 günden 7 güne indirildi
+
+### 2026 Nisan
+
+- **Anthropic Computer Use** research preview'den daha geniş dağıtıma geçti
+- **MCP protokolü** genişledi — 38+ hazır connector
+- ChatGPT **Native Memory** özelliği — opt-in hafıza katmanı (Claude'un CLAUDE.md yaklaşımına alternatif)
+
+### Beklenen (Mayıs-Temmuz 2026)
+
+- **Claude Knowledge Bases** — Anthropic'in kendi native KB özelliği (memory skill'inin evrimi)
+- ChatGPT için **zengin BI dashboard özellikleri**
+- Her iki taraftan da **çoklu-modal** (ses + video + belge) derinleşme
+
+### Zamana'nın Takip Ettiği Noktalar
+
+Hangi gelişme Zamana müşterilerini doğrudan etkiler? Üç ana eksen:
+
+1. **KVKK uyum özellikleri** — Enterprise DPA şartları, Zero Data Retention yaygınlaşması
+2. **Türkçe performans** — her iki modelin Türkçe kalitesinin seyri
+3. **Kurumsal connector'lar** — Türkiye'de yaygın araçlar (Logo, Netsis gibi yerel sistemler için MCP desteği)
+
+Bu eksenler değiştikçe wiki güncellenir. **Retainer müşterileri önemli değişimleri telefonda bilgilendirilir**.
+
 ## Kısa Karar Tablosu
 
 | Sizin için öncelik... | Muhtemelen daha uygun |

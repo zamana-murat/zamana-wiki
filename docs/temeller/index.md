@@ -72,6 +72,14 @@ Bu altı soru Zamana eğitim programının ilk saatinde de sorulan sorulardır. 
 
     [:octicons-arrow-right-24: SSS](sss.md)
 
+-   :material-calendar-week:{ .lg .middle } **İlk 7 Gün Rehberi**
+
+    ---
+
+    Claude'la başlangıç — gün gün checklist, ilk iş akışları, kaçınılması gereken hatalar.
+
+    [:octicons-arrow-right-24: İlk 7 Gün](ilk-7-gun.md)
+
 </div>
 
 ## Zamana'nın Ana Duruşu
