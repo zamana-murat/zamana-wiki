@@ -1,0 +1,100 @@
+site_name: Zamana Wiki
+site_url: https://zamana.com.tr/wiki/
+site_description: Türkiye'nin Claude AI iş kullanım kılavuzu. CLAUDE.md, Cowork, prompting ve departman bazlı kullanım senaryoları.
+site_author: Murat Özsaygılı
+copyright: © Zamana — Kurumsal Eğitim & Danışmanlık
+
+repo_url: https://github.com/zamana-murat/zamana-wiki
+repo_name: zamana-murat/zamana-wiki
+edit_uri: edit/main/docs/
+
+theme:
+  name: material
+  language: tr
+  custom_dir: overrides
+  logo: assets/logo.png
+  favicon: assets/favicon.png
+  palette:
+    - scheme: default
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-7
+        name: Karanlık moda geç
+    - scheme: slate
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-4
+        name: Aydınlık moda geç
+  font:
+    text: Plus Jakarta Sans
+    code: JetBrains Mono
+  features:
+    - navigation.instant
+    - navigation.tracking
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.sections
+    - navigation.top
+    - navigation.footer
+    - navigation.indexes
+    - search.suggest
+    - search.highlight
+    - search.share
+    - content.code.copy
+    - content.tabs.link
+    - content.action.edit
+    - toc.follow
+
+plugins:
+  - search:
+      lang:
+        - tr
+        - en
+  - tags
+
+markdown_extensions:
+  - admonition
+  - attr_list
+  - def_list
+  - footnotes
+  - md_in_html
+  - tables
+  - toc:
+      permalink: true
+      permalink_title: Bu bölüme bağlantı
+  - pymdownx.details
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+
+extra_css:
+  - stylesheets/extra.css
+
+extra:
+  social:
+    - icon: fontawesome/brands/linkedin
+      link: https://www.linkedin.com/company/zamana
+      name: Zamana LinkedIn
+  generator: false
+
+nav:
+  - Ana Sayfa: index.md
+  - Temeller: temeller/index.md
+  - Araçlar: araclar/index.md
+  - CLAUDE.md: claude-md/index.md
+  - Prompting: prompting/index.md
+  - Skills: skills/index.md
+  - MCP Bağlayıcıları: mcp/index.md
+  - Departmanlar: departmanlar/index.md
+  - Sözlük: sozluk.md

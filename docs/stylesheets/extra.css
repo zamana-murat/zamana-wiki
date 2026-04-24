@@ -1,0 +1,221 @@
+/* ==========================================================================
+   Zamana brand palette — aligned with zamana.com.tr
+   ========================================================================== */
+
+:root {
+  --zamana-navy:        #0f2855;
+  --zamana-navy-mid:    #1a3d7a;
+  --zamana-navy-deep:   #071a3e;
+  --zamana-gold:        #c9a84c;
+  --zamana-gold-light:  #e4c97a;
+}
+
+/* Light scheme overrides */
+[data-md-color-scheme="default"] {
+  --md-primary-fg-color:            var(--zamana-navy);
+  --md-primary-fg-color--light:     var(--zamana-navy-mid);
+  --md-primary-fg-color--dark:      var(--zamana-navy-deep);
+  --md-accent-fg-color:             var(--zamana-gold);
+  --md-accent-fg-color--transparent: rgba(201, 168, 76, 0.12);
+
+  --md-typeset-a-color:             var(--zamana-navy-mid);
+}
+
+/* Dark scheme overrides */
+[data-md-color-scheme="slate"] {
+  --md-primary-fg-color:            var(--zamana-navy);
+  --md-primary-fg-color--light:     var(--zamana-navy-mid);
+  --md-primary-fg-color--dark:      var(--zamana-navy-deep);
+  --md-accent-fg-color:             var(--zamana-gold-light);
+  --md-accent-fg-color--transparent: rgba(201, 168, 76, 0.18);
+
+  --md-typeset-a-color:             var(--zamana-gold-light);
+}
+
+/* ==========================================================================
+   Header & logo
+   ========================================================================== */
+
+.md-header__button.md-logo {
+  padding: 0.3rem 0.4rem;
+  margin: 0;
+}
+
+.md-header__button.md-logo img,
+.md-header__button.md-logo svg {
+  height: 3rem;
+  width: auto;
+  max-height: none;
+}
+
+.md-header {
+  border-bottom: 2px solid var(--zamana-gold);
+}
+
+/* ==========================================================================
+   Homepage vertical breathing room
+   ========================================================================== */
+
+.md-typeset h1 {
+  margin-top: 1.5rem;
+  margin-bottom: 1.2rem;
+  font-weight: 700;
+  letter-spacing: -0.01em;
+}
+
+.md-typeset h2 {
+  margin-top: 3rem;
+  margin-bottom: 1rem;
+  padding-top: 0.5rem;
+  font-weight: 700;
+  letter-spacing: -0.005em;
+}
+
+/* Gold accent underline on h2 */
+.md-typeset h2::after {
+  content: "";
+  display: block;
+  width: 3rem;
+  height: 3px;
+  background: var(--zamana-gold);
+  margin-top: 0.6rem;
+  border-radius: 2px;
+}
+
+.md-typeset p {
+  line-height: 1.75;
+}
+
+/* ==========================================================================
+   Grid cards — the "middle boxes" on homepage
+   ========================================================================== */
+
+.md-typeset .grid.cards {
+  grid-gap: 1.4rem;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.md-typeset .grid.cards > :is(ul, ol) > li,
+.md-typeset .grid.cards > * {
+  border: 1px solid var(--md-default-fg-color--lightest);
+  border-radius: 10px;
+  padding: 1.6rem 1.6rem 1.4rem 1.6rem;
+  background:
+    linear-gradient(180deg, rgba(201, 168, 76, 0.04) 0%, rgba(255, 255, 255, 0) 40%);
+  box-shadow: 0 2px 8px rgba(15, 40, 85, 0.04);
+  transition:
+    transform 220ms ease,
+    box-shadow 220ms ease,
+    border-color 220ms ease,
+    background 220ms ease;
+  position: relative;
+  overflow: hidden;
+
+  /* Flex column so action link can be pinned to bottom */
+  display: flex;
+  flex-direction: column;
+}
+
+/* Top gold hairline that grows on hover */
+.md-typeset .grid.cards > *::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 3px;
+  background: var(--zamana-gold);
+  opacity: 0.3;
+  transition: opacity 220ms ease;
+}
+
+.md-typeset .grid.cards > :hover {
+  transform: translateY(-2px);
+  border-color: var(--zamana-gold);
+  box-shadow: 0 6px 20px rgba(15, 40, 85, 0.12);
+}
+
+.md-typeset .grid.cards > :hover::before {
+  opacity: 1;
+}
+
+/* Card icon — bigger, navy in light mode, gold in dark */
+.md-typeset .grid.cards .twemoji,
+.md-typeset .grid.cards .lg {
+  font-size: 2rem !important;
+  color: var(--zamana-navy);
+}
+
+[data-md-color-scheme="slate"] .md-typeset .grid.cards .twemoji,
+[data-md-color-scheme="slate"] .md-typeset .grid.cards .lg {
+  color: var(--zamana-gold);
+}
+
+/* Card title spacing */
+.md-typeset .grid.cards p strong {
+  display: block;
+  margin-top: 0.6rem;
+  margin-bottom: 0.4rem;
+  font-size: 1.05rem;
+  color: var(--zamana-navy);
+}
+
+[data-md-color-scheme="slate"] .md-typeset .grid.cards p strong {
+  color: var(--zamana-gold-light);
+}
+
+/* Separator inside cards */
+.md-typeset .grid.cards hr {
+  margin: 0.6rem 0 0.8rem 0;
+  border: none;
+  border-top: 1px solid var(--md-default-fg-color--lightest);
+}
+
+/* Card body text */
+.md-typeset .grid.cards p {
+  margin-bottom: 0.6rem;
+  line-height: 1.6;
+  font-size: 0.88rem;
+}
+
+/* Card action link — last paragraph, pinned to bottom, centered */
+.md-typeset .grid.cards p:last-child {
+  margin-top: auto;            /* push to card bottom */
+  padding-top: 1rem;
+  text-align: left;
+  margin-bottom: 0;
+}
+
+.md-typeset .grid.cards p:last-child a {
+  display: inline-flex;
+  align-items: center;         /* vertical align icon + text */
+  justify-content: flex-start;
+  gap: 0.4rem;
+  font-weight: 600;
+  color: var(--zamana-navy-mid);
+  padding: 0.5rem 1rem;
+  border-radius: 6px;
+  transition: background 180ms ease, color 180ms ease;
+}
+
+.md-typeset .grid.cards p:last-child a svg,
+.md-typeset .grid.cards p:last-child a .twemoji {
+  display: inline-flex;
+  align-items: center;
+  height: 1.1em;
+  width: auto;
+  vertical-align: middle;
+  margin: 0;
+}
+
+[data-md-color-scheme="slate"] .md-typeset .grid.cards p:last-child a {
+  color: var(--zamana-gold-light);
+}
+
+.md-typeset .grid.cards p:last-child a:hover,
+.md-typeset .grid.cards p:last-child a:hover svg {
+  color: #ffffff;
+  fill: #ffffff;
+  background: var(--zamana-navy);
+}
