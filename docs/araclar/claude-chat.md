@@ -103,6 +103,6 @@ Bunların hepsi Chat'te harika çalışır. Cowork gerekmez.
 - [Cowork Modu](cowork-modu.md) — Claude Chat'in gelişmiş kardeşi
 - [Projects](projects.md) — Claude Chat içindeki kalıcı çalışma alanları
 - [Claude Desktop](claude-desktop.md) — Cowork'ün içinde yaşadığı uygulama
-- [Hangisi Ne Zaman?](hangisini-ne-zaman.md) — Araç seçimi karar rehberi
+- [Araçlar Ana Sayfası](index.md) — Tüm Claude araçlarının karar tablosu
 
 --8<-- "retainer-cta.md"

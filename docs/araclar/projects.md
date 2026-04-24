@@ -143,6 +143,6 @@ Zamana eğitim programında çalışanlar **Pro plan** ile başlar — bu Projec
 - [Claude Chat](claude-chat.md) — Projects'in içinde yaşadığı arayüz
 - [CLAUDE.md Nedir?](../claude-md/nedir.md) — Cowork'teki kalıcı bağlam dosyası
 - [Claude Desktop](claude-desktop.md) — Cowork ve CLAUDE.md için masaüstü uygulaması
-- [Hangisi Ne Zaman?](hangisini-ne-zaman.md) — Araç seçimi karar rehberi
+- [Araçlar Ana Sayfası](index.md) — Tüm Claude araçlarının karar tablosu
 
 --8<-- "retainer-cta.md"
