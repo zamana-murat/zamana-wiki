@@ -80,6 +80,22 @@ Bu altı soru Zamana eğitim programının ilk saatinde de sorulan sorulardır. 
 
     [:octicons-arrow-right-24: İlk 7 Gün](ilk-7-gun.md)
 
+-   :material-translate:{ .lg .middle } **Türkçe Performansı**
+
+    ---
+
+    Resmi yazışma, teknik, hukuki, yaratıcı — dört registerda Claude'un Türkçe çıktısı ve güçlü/zayıf yönleri.
+
+    [:octicons-arrow-right-24: Türkçe Performansı](turkce-performansi.md)
+
+-   :material-message-question-outline:{ .lg .middle } **Yaygın İtirazlar**
+
+    ---
+
+    Yönetim, IT, hukuk, finans ve çalışandan gelen tipik itirazlar ve Zamana'nın dürüst cevapları.
+
+    [:octicons-arrow-right-24: İtirazlar](itirazlar.md)
+
 </div>
 
 ## Zamana'nın Ana Duruşu
