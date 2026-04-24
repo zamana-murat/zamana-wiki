@@ -1,5 +1,6 @@
 site_name: Zamana Wiki
 site_url: https://zamana.com.tr/wiki/
+site_dir: site/wiki
 site_description: Türkiye'nin Claude AI iş kullanım kılavuzu. CLAUDE.md, Cowork, prompting ve departman bazlı kullanım senaryoları.
 site_author: Murat Özsaygılı
 copyright: © Zamana — Kurumsal Eğitim & Danışmanlık
