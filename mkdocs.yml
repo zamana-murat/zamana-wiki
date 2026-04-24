@@ -91,11 +91,60 @@ extra:
 
 nav:
   - Ana Sayfa: index.md
-  - Temeller: temeller/index.md
-  - Araçlar: araclar/index.md
-  - CLAUDE.md: claude-md/index.md
-  - Prompting: prompting/index.md
-  - Skills: skills/index.md
-  - MCP Bağlayıcıları: mcp/index.md
-  - Departmanlar: departmanlar/index.md
+  - Temeller:
+      - temeller/index.md
+      - Claude Nedir?: temeller/claude-nedir.md
+      - Modeller: temeller/modeller.md
+      - Planlar: temeller/planlar.md
+      - Claude vs ChatGPT: temeller/claude-vs-chatgpt.md
+      - Sınırlamalar: temeller/sinirlamalar.md
+      - Gizlilik ve KVKK: temeller/gizlilik-kvkk.md
+  - Araçlar:
+      - araclar/index.md
+      - Claude Chat: araclar/claude-chat.md
+      - Projects: araclar/projects.md
+      - Claude Desktop: araclar/claude-desktop.md
+      - Cowork Modu: araclar/cowork-modu.md
+      - Dispatch: araclar/dispatch.md
+      - Scheduled Tasks: araclar/scheduled-tasks.md
+      - Voice Mode: araclar/voice-mode.md
+  - CLAUDE.md:
+      - claude-md/index.md
+      - CLAUDE.md Nedir?: claude-md/nedir.md
+      - Nasıl Yazılır?: claude-md/nasil-yazilir.md
+      - Örnekler: claude-md/ornekler.md
+      - Memory Yönetimi: claude-md/memory-yonetimi.md
+  - Prompting:
+      - prompting/index.md
+      - 4D Çerçevesi: prompting/4d-cercevesi.md
+      - Temel İlkeler: prompting/temel-ilkeler.md
+      - İleri Seviye: prompting/ileri-seviye.md
+      - Yaygın Hatalar: prompting/yaygin-hatalar.md
+  - Yetenekler:
+      - yetenekler/index.md
+      - Skills: yetenekler/skills.md
+      - Artifacts: yetenekler/artifacts.md
+      - Dosya İşleme: yetenekler/file-handling.md
+      - Görsel ve Görüntü: yetenekler/vision-image.md
+      - Computer Use: yetenekler/computer-use.md
+      - Agents ve Subagents: yetenekler/agents-subagents.md
+      - Context ve Compaction: yetenekler/context-compaction.md
+  - MCP ve Eklentiler:
+      - mcp/index.md
+      - MCP Nedir?: mcp/nedir.md
+      - Bağlantı Listesi: mcp/baglanti-listesi.md
+  - Departmanlar:
+      - departmanlar/index.md
+      - Satış: departmanlar/satis.md
+      - Pazarlama: departmanlar/pazarlama.md
+      - Finans: departmanlar/finans.md
+      - Operasyon: departmanlar/operasyon.md
+      - İnsan Kaynakları: departmanlar/insan-kaynaklari.md
+      - Hukuk: departmanlar/hukuk.md
+      - Bilgi Teknolojileri: departmanlar/bilgi-teknolojileri.md
+      - Müşteri Hizmetleri: departmanlar/musteri-hizmetleri.md
+      - İdari İşler: departmanlar/idari-isler.md
+      - Liderlik: departmanlar/liderlik.md
+      - Satınalma: departmanlar/satinalma.md
+      - İhracat: departmanlar/ihracat.md
   - Sözlük: sozluk.md
