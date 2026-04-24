@@ -58,3 +58,5 @@ Zamana, Türkiye'de işletmelere Claude üzerine kurumsal eğitim ve danışmanl
 ---
 
 *Bu wiki yaşayan bir belgedir. Claude geliştikçe içerik güncellenir. Son güncelleme tarihleri her sayfanın altındadır.*
+
+--8<-- "retainer-cta.md"

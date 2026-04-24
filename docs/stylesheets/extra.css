@@ -33,7 +33,7 @@
 }
 
 /* ==========================================================================
-   Header & logo
+   Header & logo — full navy gradient chrome
    ========================================================================== */
 
 .md-header__button.md-logo {
@@ -48,8 +48,67 @@
   max-height: none;
 }
 
-.md-header {
+.md-header,
+.md-header--shadow {
+  background: linear-gradient(135deg, var(--zamana-navy) 0%, var(--zamana-navy-deep) 100%);
   border-bottom: 2px solid var(--zamana-gold);
+  box-shadow: 0 4px 16px rgba(7, 26, 62, 0.2);
+}
+
+/* Tabs bar (second row) — gradient continuation */
+.md-tabs {
+  background: linear-gradient(135deg, var(--zamana-navy-deep) 0%, var(--zamana-navy) 100%);
+  border-bottom: 1px solid rgba(201, 168, 76, 0.2);
+}
+
+.md-tabs__link {
+  color: rgba(255, 255, 255, 0.85);
+  opacity: 1;
+  font-weight: 500;
+}
+
+.md-tabs__link:hover,
+.md-tabs__link--active {
+  color: var(--zamana-gold-light);
+}
+
+/* ==========================================================================
+   Sidebar accents — keep default light layout, add brand touches only
+   ========================================================================== */
+
+.md-nav__link--active,
+.md-nav__item--active > .md-nav__link {
+  color: var(--zamana-navy);
+  font-weight: 700;
+}
+
+.md-nav__link:hover,
+.md-nav__link:focus {
+  color: var(--zamana-gold);
+}
+
+.md-sidebar--secondary .md-nav__link--active {
+  color: var(--zamana-gold);
+  border-left: 2px solid var(--zamana-gold);
+  padding-left: 0.4rem;
+}
+
+/* ==========================================================================
+   Footer — navy gradient for full chrome consistency
+   ========================================================================== */
+
+.md-footer {
+  background: var(--zamana-navy-deep);
+}
+
+.md-footer-meta {
+  background: var(--zamana-navy-deep);
+  border-top: 1px solid rgba(201, 168, 76, 0.15);
+}
+
+.md-footer-copyright,
+.md-footer-meta .md-footer__link {
+  color: rgba(255, 255, 255, 0.7);
 }
 
 /* ==========================================================================
@@ -218,4 +277,79 @@
   color: #ffffff;
   fill: #ffffff;
   background: var(--zamana-navy);
+}
+
+/* ==========================================================================
+   Retainer CTA — appears at the bottom of every content page
+   ========================================================================== */
+
+.md-typeset .retainer-cta {
+  margin: 3.5rem 0 1rem 0;
+  padding: 2rem 2rem 1.6rem 2rem;
+  border-radius: 12px;
+  background: linear-gradient(135deg, var(--zamana-navy) 0%, var(--zamana-navy-deep) 100%);
+  border-top: 3px solid var(--zamana-gold);
+  color: #ffffff;
+  position: relative;
+  box-shadow: 0 8px 24px rgba(15, 40, 85, 0.15);
+}
+
+.md-typeset .retainer-cta h3 {
+  color: var(--zamana-gold-light);
+  margin-top: 0;
+  margin-bottom: 0.8rem;
+  font-weight: 700;
+  font-size: 1.25rem;
+  letter-spacing: -0.005em;
+}
+
+.md-typeset .retainer-cta h3::after {
+  display: none;            /* override the global h2/h3 gold underline */
+}
+
+.md-typeset .retainer-cta p {
+  color: rgba(255, 255, 255, 0.92);
+  line-height: 1.7;
+  margin: 0.8rem 0;
+}
+
+.md-typeset .retainer-cta p strong {
+  color: #ffffff;
+  font-weight: 700;
+}
+
+.md-typeset .retainer-cta .md-button {
+  display: inline-flex;
+  align-items: center;
+  margin-right: 0.6rem;
+  margin-top: 0.8rem;
+  padding: 0.6rem 1.2rem;
+  font-weight: 600;
+  border-radius: 8px;
+  color: var(--zamana-navy);
+  background: #ffffff;
+  border: 2px solid transparent;
+  transition: all 180ms ease;
+}
+
+.md-typeset .retainer-cta .md-button:hover {
+  color: var(--zamana-navy);
+  background: var(--zamana-gold-light);
+  transform: translateY(-1px);
+}
+
+.md-typeset .retainer-cta .md-button--primary {
+  color: var(--zamana-navy);
+  background: var(--zamana-gold);
+  border: 2px solid var(--zamana-gold);
+}
+
+.md-typeset .retainer-cta .md-button--primary:hover {
+  background: var(--zamana-gold-light);
+  border-color: var(--zamana-gold-light);
+}
+
+.md-typeset .retainer-cta .md-button svg {
+  height: 1.1em;
+  margin-left: 0.3rem;
 }
