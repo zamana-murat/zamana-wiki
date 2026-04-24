@@ -303,7 +303,7 @@ KVKK tüm sektörler için geçerlidir. Ama bazı sektörlerde **ek düzenleyici
 
 Zamana eğitim programı başlamadan önce şirketinizin tamamlaması gerekenler:
 
-- [ ] Tüm çalışanlar en az **Claude Pro** aboneliğine sahip
+- [ ] Tüm çalışanlar **Claude Max 5x** aboneliğine sahip (ilk ay zorunlu; ay 2+ Pro'ya indirme seçeneği)
 - [ ] "Claude'u geliştirmeye yardım et" opt-in ayarı her çalışanda **kapalı** olarak ayarlandı
 - [ ] Hangi veri kategorilerinin Claude'a girilebileceği yazılı politikada belirlendi
 - [ ] 5+ çalışan varsa Team plana geçiş düşünüldü (SSO, merkezi yönetim, DPA)

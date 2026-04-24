@@ -10,7 +10,7 @@ tags:
 
 # Satış ve İş Geliştirme
 
-Satış ekibinin Claude'la en çok zaman kazandığı yerler ve Zamana eğitim programının bu departmanda öğrettiği gerçek iş akışları.
+Satış ekibinin Claude'la en çok zaman kazandığı yerler ve Zamana eğitim programlarının bu departmanda öğrettiği gerçek iş akışları.
 
 ## Claude'un Çözdüğü Temel Sıkıntılar
 

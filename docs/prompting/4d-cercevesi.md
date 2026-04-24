@@ -12,7 +12,7 @@ tags:
 
 Yapay zekayla çalışmak bir beceridir, bir araç değil. Bu becerinin resmi adı **AI Fluency**'dir — ve Anthropic Academy'nin hem kendisi hem de University College Cork gibi üniversiteler bu beceriyi öğretirken **4D Çerçevesi**'ni kullanır.
 
-Zamana eğitim programının tamamı da bu çerçeveye dayanır. Sebep basit: 4D, bir çalışanın Claude'la "dene bakalım" seviyesinden "işini buna göre yeniden tasarla" seviyesine geçmesini sağlayan düşünce yapısıdır.
+Zamana eğitim programlarının tamamı da bu çerçeveye dayanır. Sebep basit: 4D, bir çalışanın Claude'la "dene bakalım" seviyesinden "işini buna göre yeniden tasarla" seviyesine geçmesini sağlayan düşünce yapısıdır.
 
 > **AI Fluency, yapay zekayla etkili, verimli, etik ve güvenli biçimde etkileşim kurabilme yetkinliğidir.**
 

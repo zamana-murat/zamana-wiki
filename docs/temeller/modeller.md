@@ -83,7 +83,7 @@ Claude Desktop'ın Cowork modu ve Claude.ai web arayüzü, **çoğu oturumda en 
 
 Çalışanlar sorduğunda cevap basittir:
 
-- Claude Pro aboneliğiniz varsa — **Sonnet kullanıyorsunuz demektir. Yeterlidir.**
+- Claude Pro veya Max aboneliğiniz varsa — **Sonnet kullanıyorsunuz demektir. Yeterlidir.**
 - Bir görev sırasında Cowork otomatik olarak Haiku'ya düşerse — **merak etmeyin, o alt-görev için doğru seçim.**
 - "Opus'a mı geçsem?" diye düşünüyorsanız — **muhtemelen geçmenize gerek yok.**
 

@@ -27,7 +27,7 @@ yer alır. Skills, **deneme-yanılma ile kazanılmış bilgiyi metne çevirir** 
 
 ## Temel Skills (Hazır Gelen)
 
-Claude Desktop'ta Pro aboneliğiyle doğrudan erişilebilen ana skill'ler:
+Claude Desktop'ta Pro veya Max aboneliğiyle doğrudan erişilebilen ana skill'ler:
 
 | Skill | Ne Yapar |
 |---|---|

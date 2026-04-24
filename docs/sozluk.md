@@ -53,10 +53,13 @@ Windows ve macOS için yerel uygulama; Cowork moduna giriş kapısı. Detay: [Cl
 Ücretsiz plan; sıkı kullanım limitleri; 5 Project'e kadar; Cowork yok. Detay: [Claude Planları](temeller/planlar.md).
 
 **Claude Pro**
-Aylık 20 USD bireysel plan — Zamana müşterileri için minimum gereksinim. Sonnet 4.6 ve Cowork dahil. Detay: [Planlar](temeller/planlar.md).
+Aylık 20 USD bireysel plan. Zamana eğitim **sonrası** hafif kullanım için uygun. Sonnet 4.6 ve Cowork dahil. Detay: [Planlar](temeller/planlar.md).
 
-**Claude Max**
-Aylık 100-200 USD bireysel plan (5x / 20x kullanım limiti). Pro limitlerini zorlayan güç kullanıcıları için. Detay: [Planlar](temeller/planlar.md).
+**Claude Max 5x**
+Aylık 100 USD bireysel plan. **Zamana eğitim programı ilk ayı için zorunlu** — yeni kullanıcının agresif keşif ritminde Pro limiti yetmez. Ay 2+ kullanıma göre Pro'ya indirilebilir. Detay: [Planlar](temeller/planlar.md).
+
+**Claude Max 20x**
+Aylık 200 USD bireysel plan. Çok yoğun, sürekli kullanım için. Detay: [Planlar](temeller/planlar.md).
 
 **Claude Team**
 Kurumsal plan, koltuk başına aylık 25 USD; paylaşılan Project'ler; SSO; yönetici kontrolleri. Detay: [Planlar](temeller/planlar.md).

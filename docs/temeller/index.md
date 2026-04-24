@@ -10,7 +10,7 @@ tags:
 
 Claude'u ciddi şekilde kullanmaya başlamadan önce anlaşılması gereken temel kavramlar. Bu bölüm, bir iş profesyoneline Claude'u sağlıklı biçimde kullanmaya başlatacak altı sorunun cevabını verir.
 
-Bu altı soru Zamana eğitim programının ilk saatinde de sorulan sorulardır. Sırasıyla okursanız bir saatten kısa sürede temel kavrayışa ulaşırsınız.
+Bu altı soru Zamana eğitim programlarının ilk saatinde de sorulan sorulardır. Sırasıyla okursanız bir saatten kısa sürede temel kavrayışa ulaşırsınız.
 
 ## Başlangıç Yolu
 
@@ -104,7 +104,7 @@ Bu bölümü okuduktan sonra aklınızda kalması gereken altı duruş:
 
 1. **Claude bir arama motoru değildir** — düşünme ortağıdır. Ona göre konuşun.
 2. **Sonnet varsayılandır.** Her zaman. İstisnai durumlar dışında model seçimiyle uğraşmayın.
-3. **Claude Pro, bir iş profesyoneli için minimum plandır** — Free iş için uygun değildir.
+3. **Yeni Claude kullanıcısı için ilk ay Max 5x zorunludur** — agresif keşif ritminde Pro ($20) limiti çabuk dolar, yanlış ilk izlenim yaratır. Ay 2+ hafif kullanım durumunda Pro'ya inilebilir. Free iş için uygun değildir.
 4. **Claude yanılmaz değildir.** Her kritik çıktıyı doğrulayın. İmza testini uygulayın.
 5. **Kişisel veri ve KVKK konuları plan seçimini belirler.** Team veya Enterprise + DPA, bireysel Pro'dan farklıdır.
 6. **Claude yazar. Siz karar verirsiniz. Sorumluluk asla transfer olmaz.**

@@ -1,6 +1,6 @@
 ---
 title: CLAUDE.md Nedir?
-description: CLAUDE.md, Claude'un sizi ve şirketinizi her oturumda yeniden tanımasını önleyen basit bir metin dosyasıdır. Zamana eğitim programının kalbidir.
+description: CLAUDE.md, Claude'un sizi ve şirketinizi her oturumda yeniden tanımasını önleyen basit bir metin dosyasıdır. Zamana eğitim programlarının kalbidir.
 tags:
   - claude-md
   - temel-kavram
@@ -9,11 +9,11 @@ tags:
 
 # CLAUDE.md Nedir?
 
-**CLAUDE.md, Claude'un sizi ve şirketinizi her oturumda yeniden tanımak zorunda kalmaması için hazırlanan düz metin bir dosyadır.**
+**CLAUDE.md, Claude'un sizi (ve varsa şirketinizi) her oturumda yeniden tanımak zorunda kalmaması için hazırlanan düz metin bir dosyadır.**
 
 Markdown formatındadır. Workspace klasörünüzde durur. Claude, Cowork modunda bir oturum başlattığınızda bu dosyayı otomatik olarak okur ve sessiz bir şekilde "tamam, bu kullanıcıyı tanıyorum" deyip işe başlar.
 
-Zamana eğitim programında bu dosyaya verdiğimiz önem bir slogan değildir: **CLAUDE.md, Claude'u genel bir asistan olmaktan çıkarıp ekibinizin bir üyesi haline getiren mekanizmadır.**
+Zamana eğitim programlarında bu dosyaya verdiğimiz önem bir slogan değildir: **CLAUDE.md, Claude'u genel bir asistan olmaktan çıkarıp size özel bir asistana dönüştüren mekanizmadır** — kendi tarzınıza, işinize, varsa ekibinize uygun.
 
 ## Neden Önemli?
 

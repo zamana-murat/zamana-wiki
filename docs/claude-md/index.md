@@ -8,9 +8,9 @@ tags:
 
 # CLAUDE.md
 
-**Zamana eğitim programının kalbidir.**
+**Zamana eğitim programlarının kalbidir.**
 
-Bu bir abartı değildir. Claude'u genel bir yapay zeka asistanından çıkarıp **sizin ekibinizin bir üyesi** haline getiren tek mekanizma CLAUDE.md'dir. Doğru yazılmış bir CLAUDE.md ile Claude ilk günden itibaren sizin şirketinizi, sizin tonunuzu, sizin iş akışlarınızı bilir.
+Bu bir abartı değildir. Claude'u genel bir yapay zeka asistanından çıkarıp size özel — kendi tarzınıza, işinize, varsa ekibinize uygun — bir asistana dönüştüren tek mekanizma CLAUDE.md'dir. Doğru yazılmış bir CLAUDE.md ile Claude ilk günden itibaren sizi, tonunuzu, iş akışlarınızı bilir.
 
 Bu bölüm CLAUDE.md'yi dört açıdan anlatır: nedir, nasıl yazılır, gerçek örnekler, ve CLAUDE.md'nin ötesindeki hafıza katmanları.
 

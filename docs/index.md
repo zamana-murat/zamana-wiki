@@ -1,13 +1,13 @@
 ---
 title: Zamana Wiki — Türkiye'nin Claude Kaynağı
-description: Claude'u iş dünyasında kullanmak için Türkçe kapsamlı rehber. CLAUDE.md, Cowork, prompting ve departman bazlı kullanım senaryoları.
+description: Claude'u profesyonel olarak kullanmak için Türkçe kapsamlı rehber. Bireysel profesyoneller ve şirketler için CLAUDE.md, Cowork, prompting ve gerçek iş akışları.
 ---
 
 # Zamana Wiki
 
-**Claude'u iş dünyasında doğru kullanmanın Türkçe kaynağı.**
+**Claude'u doğru kullanmanın Türkçe kaynağı.**
 
-Bu wiki, Türkiye'deki işletmelerin Claude'u deneme aşamasından günlük iş akışlarına geçirmeleri için hazırlanmıştır. Kod yazmayı öğretmek için değil; satış yöneticileri, finans ekipleri, hukuk birimleri, İK, operasyon ve yönetim kadroları için pratik, gerçek iş çıktısı üretmeyi amaçlar.
+Bu wiki, Claude'u profesyonel hayatınızda gerçek iş akışlarına geçirmek isteyen herkese yöneliktir — bağımsız profesyoneller, şirket çalışanları, ekip yöneticileri. Kod yazmayı öğretmek için değil; satış, finans, hukuk, İK, operasyon ve yönetim alanlarında pratik, gerçek iş çıktısı üretmek için.
 
 ## Nereden Başlamalı?
 
@@ -33,15 +33,15 @@ Bu wiki, Türkiye'deki işletmelerin Claude'u deneme aşamasından günlük iş 
 
     ---
 
-    Claude'un sizi ve şirketinizi tanıması için hazırlanan kalıcı hafıza dosyası.
+    Claude'un sizi (ve varsa şirketinizi) tanıması için hazırlanan kalıcı hafıza dosyası.
 
     [:octicons-arrow-right-24: CLAUDE.md Rehberi](claude-md/index.md)
 
--   :material-office-building:{ .lg .middle } **Departmanıma nasıl uyarlanır?**
+-   :material-account-tie-outline:{ .lg .middle } **Rolüme nasıl uyarlanır?**
 
     ---
 
-    Satış, pazarlama, finans, hukuk, İK ve 7 departman daha — gerçek iş akışları.
+    Satış, pazarlama, finans, hukuk, İK ve 7 alan daha — bireysel profesyonel veya kurumsal kullanım için gerçek iş akışları.
 
     [:octicons-arrow-right-24: Departmanlar](departmanlar/index.md)
 
@@ -51,9 +51,14 @@ Bu wiki, Türkiye'deki işletmelerin Claude'u deneme aşamasından günlük iş 
 
 ## Zamana Hakkında
 
-Zamana, Türkiye'de işletmelere Claude üzerine kurumsal eğitim ve danışmanlık veren bir programdır. Bu wiki, eğitim programımızın ücretsiz ve kamuya açık referans kaynağıdır.
+Zamana, Türkiye'de Claude üzerine eğitim ve danışmanlık veren bir programdır. **İki farklı eğitim formatımız var** — kim olduğunuza ve nasıl öğrenmek istediğinize göre seçim:
 
-Şirketiniz için özel bir eğitim programı mı düşünüyorsunuz? [Zamana Kurumsal Eğitim Programı →](https://zamana.com.tr)
+- **Bireysel Program ($1.000)** — Tek kişi, 3 hafta × 2 saat birebir eğitim + 3 ay telefon desteği. CEO'lar, bağımsız profesyoneller, kendi tempoda öğrenmek isteyenler için.
+- **Kurumsal Program ($9.000)** — Şirketinizden 6 çalışan, 3 ay derinlemesine eğitim. Şirket çapında dönüşüm hedefleyen orta ölçekli işletmeler için.
+
+Bu wiki **her ikisinin** referans kaynağıdır — ücretsiz ve kamuya açık.
+
+[Zamana Eğitim Programları →](https://zamana.com.tr)
 
 ---
 

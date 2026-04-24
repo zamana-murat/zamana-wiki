@@ -57,7 +57,7 @@ Cowork içinde birden fazla uzmanlaşmış agent tipi vardır. Çalışan doğru
 - **`Plan`** — mimari ve uygulama planlama
 - **`claude-code-guide`** — Claude Code, API, Agent SDK hakkında sorular
 
-**Önemli not (Zamana kapsamında):** `claude-code-guide` agent'ı geliştirici konularıyla ilgilidir ve **Zamana eğitim programının kapsamı dışındadır** ([Brainstorm'daki scope kilidine](../temeller/claude-nedir.md) göre).
+**Önemli not (Zamana kapsamında):** `claude-code-guide` agent'ı geliştirici konularıyla ilgilidir ve **Zamana eğitim programlarının kapsamı dışındadır** ([Brainstorm'daki scope kilidine](../temeller/claude-nedir.md) göre).
 
 ## Çalışan Ne Bilmeli?
 

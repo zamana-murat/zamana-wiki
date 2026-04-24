@@ -33,16 +33,16 @@ Tek cümleyle: Zamana eğitim programı Claude Desktop olmadan başlamaz. Çünk
 | **RAM** | 8 GB | 16 GB |
 | **Depolama** | 2 GB boş alan | SSD üzerinde 10 GB |
 | **İnternet** | 10 Mbps | 25 Mbps, kararlı |
-| **Abonelik** | Claude Pro (minimum) | Claude Pro veya üstü |
+| **Abonelik** | Claude Pro ($20/ay) | **Claude Max 5x ($100/ay)** — Zamana eğitim ilk ayı zorunlu |
 
-**Önemli:** Claude Pro aboneliği (ayda 20 USD) olmadan Claude Desktop'ın en güçlü özellikleri (özellikle Cowork) kullanılamaz. Bu, Zamana eğitim programının pazarlık dışı bir şartıdır.
+**Önemli:** Claude Desktop'ın en güçlü özellikleri (özellikle Cowork) için **en az Pro ($20/ay)** gerekir. Ancak **Zamana eğitim programı katılımcıları için ilk ay Max 5x ($100/ay) zorunludur** — yeni kullanıcının keşif ritminde Pro limiti çabuk dolar, "çalışmıyor" yanlış izlenimi oluşturur. İkinci aydan itibaren gerçek kullanıma göre Pro'ya ($20) indirme opsiyonu vardır.
 
 ## Kurulum
 
 1. **[claude.ai](https://claude.ai) adresine gidin** → sağ üst menüden **"Download"** seçeneğini bulun
 2. İşletim sisteminize uygun sürümü indirin (Windows `.exe` veya macOS `.dmg`)
 3. İndirilen dosyaya çift tıklayın, kurulum adımlarını izleyin
-4. Claude Desktop açılınca **Claude Pro** hesabınızla giriş yapın
+4. Claude Desktop açılınca Claude hesabınızla giriş yapın (Max 5x önerilir, en az Pro)
 5. İlk açılışta **Cowork modunu etkinleştirin**
 6. Bir **workspace klasörü** seçin — bilgisayarınızda Claude'un çalışacağı gerçek klasör (öneri: `C:\ClaudeWorkspace` veya `~/ClaudeWorkspace`)
 7. Bu klasörün içine **CLAUDE.md** dosyasını oluşturun (bkz: [CLAUDE.md Nasıl Yazılır?](../claude-md/nasil-yazilir.md))
@@ -80,7 +80,7 @@ Claude Desktop kendi kendini günceller — arka planda yeni sürüm indirir, ye
 
 ## Sorun Giderme — Sık Karşılaşılan Durumlar
 
-- **"Cowork görünmüyor":** Hesabınızda Claude Pro aboneliği aktif mi? Free hesapla Cowork çalışmaz.
+- **"Cowork görünmüyor":** Hesabınızda Pro veya üstü (Max/Team/Enterprise) abonelik aktif mi? Free hesapla Cowork çalışmaz.
 - **"Workspace klasörü bağlanmıyor":** Ayarlar → Cowork → Workspace klasörü. Klasörün var olduğundan ve yazma izniniz olduğundan emin olun.
 - **"Connector'lar açılmıyor":** IT firewall Anthropic domain'lerini engelliyor olabilir. Whitelist kontrol edin.
 - **"VPN'de çalışmıyor":** Bazı kurumsal VPN'ler Claude Desktop trafiğini kısıtlar. VPN'i geçici kapatın veya IT ile konuşun.

@@ -11,7 +11,7 @@ tags:
 
 Claude her departmanda farklı çalışır. **Aynı araç, farklı rollerde farklı değer üretir** — çünkü iş akışları farklı, çıktılar farklı, hukuki hassasiyetler farklı.
 
-Bu bölüm Zamana eğitim programının **kalbi**dir: 12 iş alanı için özel olarak hazırlanmış, gerçek iş akışlarına dayanan Claude kullanım senaryoları.
+Bu bölüm Zamana eğitim programlarının **kalbi**dir: 12 iş alanı için özel olarak hazırlanmış, gerçek iş akışlarına dayanan Claude kullanım senaryoları.
 
 ## 12 Departman
 
@@ -131,7 +131,7 @@ Her departman sayfasında tutarlı bir yapı bulacaksınız:
 
 Bu bölümün özeti tek cümleye indirgenirse:
 
-> **Aynı Claude, farklı roller için farklı iş akışları kurar. Zamana eğitim programının 2. oturumu her çalışanın kendi departman uygulamasını canlı olarak kurmasıdır.**
+> **Aynı Claude, farklı roller için farklı iş akışları kurar. Zamana eğitim programlarının 2. oturumu her çalışanın kendi departman uygulamasını canlı olarak kurmasıdır.**
 
 Zamana bu 12 departmanı tesadüfen seçmedi. Her biri Türkiye'deki orta ölçekli şirketlerin fonksiyonel yapısına karşılık gelir. Sizin şirketinizde bazıları birleştirilmiş olabilir (örneğin satınalma + operasyon tek kişide) ya da bazıları yoktur (örneğin şirket içi hukuk yerine dış danışman). Eğitim **çalışanın rolüne göre** değil, **yaptığı işe göre** uyarlanır.
 

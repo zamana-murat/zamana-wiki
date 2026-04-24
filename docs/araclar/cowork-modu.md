@@ -1,6 +1,6 @@
 ---
 title: Cowork Modu Nedir?
-description: Cowork, Claude Desktop'ın iş akışı odaklı modudur. Dosyalarınıza erişir, kod çalıştırır, araçları kullanır. Zamana eğitim programının çalışma ortamıdır.
+description: Cowork, Claude Desktop'ın iş akışı odaklı modudur. Dosyalarınıza erişir, kod çalıştırır, araçları kullanır. Zamana eğitim programlarının çalışma ortamıdır.
 tags:
   - cowork
   - claude-desktop
@@ -11,7 +11,7 @@ tags:
 
 **Cowork, Claude Desktop uygulamasının içinde yaşayan ve Claude'u bir sohbet arayüzünden tam bir çalışma ortamına dönüştüren özelliktir.** Şu an research preview aşamasındadır — yani aktif geliştirilen, kararlı ve kullanılabilir bir özelliktir ama Anthropic hızla değiştirmeye devam ediyor.
 
-Zamana eğitim programının tamamı Cowork üzerine kuruludur. Sebep basit: bir iş profesyoneline gerçek değeri Cowork katar.
+Zamana eğitim programlarının tamamı Cowork üzerine kuruludur. Sebep basit: bir iş profesyoneline gerçek değeri Cowork katar.
 
 ## Chat ve Cowork Arasındaki Fark
 

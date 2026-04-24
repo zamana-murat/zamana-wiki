@@ -126,7 +126,7 @@ Birden fazla ekip üyesi aynı anda belge katabilir. Bu özellik Projects'i **ha
 | **Team** | Sınırsız + RAG + **paylaşılan projeler, izin kontrolleri ile** |
 | **Enterprise** | Team özellikleri + kurum çapında görünürlük, SSO, yönetici kontrolleri |
 
-Zamana eğitim programında çalışanlar **Pro plan** ile başlar — bu Projects'in tam özelliklerinin kullanılabilmesi için yeterlidir.
+Zamana eğitim programında çalışanlar **Max 5x plan ile ilk ay** başlar (zorunlu) — Projects'in tam özellikleri dahil hepsine erişim var. İkinci aydan itibaren kullanım ritmine göre Pro'ya inilebilir; Projects Pro'da da tam çalışır.
 
 ## İlk Project'inizi Nasıl Kurarsınız?
 

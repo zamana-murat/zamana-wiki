@@ -12,7 +12,7 @@ tags:
 
 İlk haftayı **doğru** geçirirseniz Claude'un günlük iş akışınızda kalıcı bir parçası olma ihtimali çok artar. Yanlış geçirirseniz — "denedim, işe yaramadı" grubuna katılırsınız.
 
-Bu sayfa Zamana eğitim programının birinci haftasının damıtılmış halidir. Gün gün ne yapacağınızı, hangi hatalara düşmeyeceğinizi ve haftanın sonunda nerede olacağınızı anlatır.
+Bu sayfa Zamana eğitim programlarının birinci haftasının damıtılmış halidir. Gün gün ne yapacağınızı, hangi hatalara düşmeyeceğinizi ve haftanın sonunda nerede olacağınızı anlatır.
 
 > **Tahmini süre:** Her gün **45-90 dakika**. Çok zorlayıcı değil, ama tutarlılık şart.
 
@@ -22,11 +22,15 @@ Bu sayfa Zamana eğitim programının birinci haftasının damıtılmış halidi
 
 Claude Desktop'ı henüz indirmeyin. Önce dört şeyi kontrol edin:
 
-### 1. Claude Pro Aboneliği
+### 1. Claude Max 5x Aboneliği
 
-[claude.ai](https://claude.ai)'da giriş yapın. Plan sayfasından Pro'ya yükseltin ($20/ay).
+[claude.ai](https://claude.ai)'da giriş yapın. Plan sayfasından **Max 5x**'e yükseltin ($100/ay).
 
-> **Free ile başlamayın.** Cowork modu yok, kullanım limitleri çok dar. Bir haftada vazgeçme ihtimaliniz artar.
+> **Neden Pro değil, Max 5x?** İlk ay agresif keşif modundasınız — connector kuracak, skill deneyecek, uzun belgelerle oynayacaksınız. Pro'nun ($20) kullanım limiti bu ritimde birkaç saatte dolar. "Çalışmıyor" hissiyle yanlış ilk izlenim oluşur ve çoğu insan bırakır.
+>
+> **Max 5x bu ilk ayın sigortasıdır.** Bir ay sonra gerçek kullanım ritminiz ortaya çıkar — eğer Max 5x'te kullanıyor değilseniz Pro'ya ($20) indirirsiniz. Eğer limitlere yine de ulaşıyorsanız Max 20x'e ($200) çıkabilirsiniz.
+>
+> **Free ile kesinlikle başlamayın.** Cowork modu yok, kullanım limitleri çok dar.
 
 ### 2. Bilgisayar Kontrolü
 
@@ -34,9 +38,9 @@ Claude Desktop'ı henüz indirmeyin. Önce dört şeyi kontrol edin:
 - En az 8 GB RAM (16 GB tavsiye)
 - Stabil internet bağlantısı
 
-### 3. IT ile Kısa Konuşma (Kurumsal Kullanıcıysanız)
+### 3. IT ile Kısa Konuşma (Şirket çalışanı iseniz)
 
-IT'den şunları isteyin:
+Bireysel kendi bilgisayarınızda kuruyorsanız bu adım atlanır. Şirket bilgisayarında çalışıyorsanız IT'den şunları isteyin:
 
 - Anthropic domain'lerini whitelist yapmaları: `claude.ai`, `anthropic.com`, Claude Desktop backend endpoint'leri
 - Claude Desktop kurulumuna izin vermeleri (yönetici hakkı veya ön-onay)
@@ -61,7 +65,7 @@ Bilgisayarınızda Claude'un çalışacağı gerçek klasör. Önerilenler:
 
 1. [claude.ai](https://claude.ai) → **Download** → işletim sisteminize uygun sürümü indirin (10 dk)
 2. Kurulum adımlarını izleyin (5 dk)
-3. Pro hesabınızla giriş yapın (2 dk)
+3. Claude hesabınızla giriş yapın (2 dk)
 4. **Cowork modunu etkinleştirin** (Settings'den) (3 dk)
 5. **Workspace klasörünüzü bağlayın** — Gün 0'da seçtiğiniz klasör (2 dk)
 6. İlk konuşma: Claude'a kendinizi tanıtın (10 dk)
