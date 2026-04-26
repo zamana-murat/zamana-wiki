@@ -11,6 +11,18 @@ tags:
 
 # Claude Modelleri — Haiku, Sonnet, Opus
 
+## Model Nedir?
+
+"Model" bir yapay zekanın **beynidir**. Anthropic, OpenAI veya Google gibi şirketler büyük metin koleksiyonlarıyla bir sinir ağını eğitir; ortaya çıkan sistem **bir model**'dir. Claude ile her sohbet ettiğinizde aslında bir modelle konuşursunuz.
+
+Aynı şirket farklı amaçlar için **farklı modeller** üretir. Bunlar üç eksende farklılaşır:
+
+- **Hız** — soruya ne kadar çabuk cevap üretir
+- **Zekâ** — ne kadar karmaşık akıl yürütme yapabilir, ne kadar nüans yakalar
+- **Maliyet** — kullanım kotasını ne kadar tüketir (dolayısıyla aboneliğinizin sınırlarını ne kadar zorlar)
+
+Bu üç eksen birbirine **bağlıdır** — daha zeki bir model genellikle daha yavaş ve daha pahalıdır. Bu nedenle Anthropic her ihtiyaç tipi için ayrı bir model çıkarır: hızlı + ucuz, dengeli, en güçlü.
+
 **Claude tek bir model değil, bir model ailesidir.** Hız, zekâ ve maliyet arasında farklı noktalarda duran üç ana modeli vardır: **Haiku**, **Sonnet** ve **Opus**.
 
 Erken 2026 itibariyle aktif aile **Claude 4.x**'dir. Her modelin güçlü olduğu iş türü farklıdır, ama iş profesyoneli için Zamana'nın pozisyonu nettir:
@@ -88,6 +100,8 @@ Claude Desktop'ın Cowork modu ve Claude.ai web arayüzü, **çoğu oturumda en 
 - "Opus'a mı geçsem?" diye düşünüyorsanız — **muhtemelen geçmenize gerek yok.**
 
 Bu bilinçli bir tasarımdır. Anthropic, iş kullanıcısının model aritmetiği yapmasını istemiyor. Zamana da aynı felsefeyi uygular: **Çalışana model öğretmeyiz. Çalışana düşünmeyi öğretiriz. Model seçimi arka planda halloluyor.**
+
+Kısacası: **"Hangi modeli kullanmalıyım?" diye soruyorsanız, cevap Sonnet'tir.**
 
 ## Ne Zaman Manuel Model Seçmek Gerekir?
 

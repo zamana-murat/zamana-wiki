@@ -62,20 +62,6 @@ Aynı soruyu tersine çevirdiğimizde iş dünyası için değerli olan şeyler 
 - **Otomasyon katmanıdır.** Cowork modunda komut çalıştırır, dosyalarınızı yönetir, dış araçları (Slack, Google Drive, CRM) çağırır. Kod yazmayı bilmeyen çalışanlar bile Claude üzerinden bu işleri yapabilir.
 - **Rol bilincine sahip bir meslektaştır.** Doğru yapılandırılmış bir [CLAUDE.md](../claude-md/nedir.md) ile Claude, ekibinizin bir üyesi gibi davranır: şirketin kim olduğunu, sizin ne yaptığınızı, tonunuzu ve sınırlarınızı bilir.
 
-## Hangi Modeli Kullanmalıyım?
-
-Claude'un birden fazla modeli vardır: **Haiku** (hızlı, hafif), **Sonnet** (dengeli, ana iş modeli), **Opus** (en güçlü, en yavaş).
-
-Zamana'nın net pozisyonu şudur:
-
-> **Sonnet, bir iş profesyonelinin ihtiyaç duyduğu her şeyi yapar. Varsayılan olarak Sonnet kullanın. Her zaman.**
-
-Bu bir uzlaşma değil, doğru seçimdir. Sonnet sözleşme yazar, rapor oluşturur, belge analiz eder, iş akışlarını yürütür. 12 departmanın tamamında profesyonel kalitede çıktı üretir. Sonnet ile Opus arasındaki fark benchmark testlerinde ölçülebilir, gerçek iş hayatında görünmez.
-
-Opus sadece istisnai durumlar için vardır: saatlerce süren otonom görevler, 150.000 kelimenin üzerinde belge analizi, piksel düzeyinde görsel inceleme. Tipik bir çalışanın günlük işi değildir bunlar.
-
-Kısacası: **"Hangi modeli kullanmalıyım?" diye soruyorsanız, cevap Sonnet'tir.**
-
 ## Claude Türkçeyi Ne Kadar İyi Anlar?
 
 Çok iyi. Claude 4.x ailesi profesyonel Türkçeyi doğru yazar, resmi ve samimi tonu ayırt eder, Türk iş kültürünün nüanslarını yakalar: "Sayın" ile "Merhaba" arasındaki farkı bilir, Türk Ticaret Kanunu'na atıfta bulunabilir, Türkçe özel isimleri doğru kullanır.

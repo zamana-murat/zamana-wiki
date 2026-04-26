@@ -72,11 +72,19 @@ Bu altı soru Zamana eğitim programlarının ilk saatinde de sorulan sorulardı
 
     [:octicons-arrow-right-24: SSS](sss.md)
 
+-   :material-rocket-launch-outline:{ .lg .middle } **İlk Kurulum**
+
+    ---
+
+    Sıfırdan başlayan için adım adım — claude.ai üyelik, Max 5x aktivasyonu, Claude Desktop kurulumu, donanım kontrolü.
+
+    [:octicons-arrow-right-24: İlk Kurulum](ilk-kurulum.md)
+
 -   :material-calendar-week:{ .lg .middle } **İlk 7 Gün Rehberi**
 
     ---
 
-    Claude'la başlangıç — gün gün checklist, ilk iş akışları, kaçınılması gereken hatalar.
+    Kurulum tamam — şimdi gün gün checklist, ilk iş akışları, kaçınılması gereken hatalar.
 
     [:octicons-arrow-right-24: İlk 7 Gün](ilk-7-gun.md)
 

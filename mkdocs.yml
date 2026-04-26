@@ -94,17 +94,19 @@ extra:
   generator: false
 
 nav:
-  - Ana Sayfa: index.md
+  - Zamana: https://zamana.com.tr
+  - Wiki: index.md
   - Temeller:
       - temeller/index.md
       - Claude Nedir?: temeller/claude-nedir.md
       - Modeller: temeller/modeller.md
       - Planlar: temeller/planlar.md
+      - İlk Kurulum: temeller/ilk-kurulum.md
+      - İlk 7 Gün Rehberi: temeller/ilk-7-gun.md
       - Claude vs ChatGPT: temeller/claude-vs-chatgpt.md
       - Sınırlamalar: temeller/sinirlamalar.md
       - Gizlilik ve KVKK: temeller/gizlilik-kvkk.md
       - Sık Sorulan Sorular: temeller/sss.md
-      - İlk 7 Gün Rehberi: temeller/ilk-7-gun.md
       - Türkçe Performansı: temeller/turkce-performansi.md
       - Yaygın İtirazlar: temeller/itirazlar.md
   - Araçlar:
