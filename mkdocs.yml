@@ -101,6 +101,7 @@ nav:
       - Claude Nedir?: temeller/claude-nedir.md
       - Modeller: temeller/modeller.md
       - Planlar: temeller/planlar.md
+      - Prompt ve Token: temeller/prompt-ve-token.md
       - İlk Kurulum: temeller/ilk-kurulum.md
       - İlk 7 Gün Rehberi: temeller/ilk-7-gun.md
       - Claude vs ChatGPT: temeller/claude-vs-chatgpt.md

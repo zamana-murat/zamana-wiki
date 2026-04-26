@@ -39,6 +39,11 @@ Bu hafta yapmanız gereken yazılı bir çıktı: müşteri e-postası, rapor ö
 
 **2. 5 bileşenli prompt yazın (15 dk)**
 
+> **Önce: Hangi modda, hangi modelle?**
+>
+> - **Mod: Cowork** — Claude Desktop sol üst köşesinde 3 ikon var. Soldan sağa: 💬 Chats (konuşma balonu), **Cowork** (ortadaki, küçük yatay çizgili liste ikonu), `</> Code`. **Ortadaki Cowork ikonuna tıklayın.** Sebep: CLAUDE.md dosyanız burada otomatik okunur, çıktıyı workspace klasörüne kaydedebilirsiniz. Chats'te bu yok.
+> - **Model: Sonnet (varsayılan)** — sağ üstte veya sohbet kutusunun yanında model seçici var. **Sonnet 4.6** seçili olduğunu kontrol edin. Bu hafta hep Sonnet kullanın — model seçimiyle uğraşmayın. Detay: [Modeller](modeller.md).
+
 Bir promptu doğru kurmanın yapısı şu — hepsini birden ver:
 
 | Bileşen | Açıklama | Örnek |

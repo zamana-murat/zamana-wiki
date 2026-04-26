@@ -299,13 +299,13 @@ ClaudeWorkspace/
 
 ### 7.1 Cowork Sekmesi
 
-Claude Desktop sol kenar panelinin **en üstünde, 3 küçük ikon** şeklinde sekmeler vardır (yakın zamanda yenilenen arayüz). Soldan sağa sırasıyla:
+Claude Desktop'ın **sol üst köşesinde, 3 küçük ikon** şeklinde sekmeler vardır (yakın zamanda yenilenen arayüz). Soldan sağa sırasıyla:
 
-- 💬 **Chats** — normal sohbet
-- 🤖 **Cowork** — bizim ihtiyacımız olan
-- ⌨️ **Code** — geliştirici modu (Zamana kapsamı dışı)
+- 💬 **Chats** — konuşma balonu ikonu, normal sohbet için
+- ≡ **Cowork** — küçük yatay çizgili liste ikonu (ortadaki), bizim ihtiyacımız olan
+- `</>` **Code** — kod parantezleri + "Code" yazılı, geliştirici modu (Zamana kapsamı dışı)
 
-Ortadaki **Cowork** ikonuna tıklayın.
+**Ortadaki Cowork ikonuna tıklayın.**
 
 > [Projects](../araclar/projects.md) artık ayrı bir sekme değil — Cowork ve Chats içinde alt seçenek olarak yer alıyor.
 
